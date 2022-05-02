@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
 
 
 *{
@@ -6,7 +6,7 @@
   padding: 0;
   outline: none;
   box-sizing: border-box;
-  font-family:'Open Sans', sans-serif;
+  font-family: 'Poppins', sans-serif
 }
 body{
   background: #f2f2f2;
@@ -139,10 +139,23 @@ nav form button{
 }
 
 hr{
-  width: 30px;
+  width: 60px;
   height: 5px;
-  background-color: #fb774b;
+  background-color: #ff3d00;
   margin:auto;
+}
+
+.buy-btn{
+  cursor: pointer;
+  padding: 10px 20px;
+  color: #ff3d00;
+  transition: 0.2s;
+  border: 2px solid #ff3d00;
+
+}
+.buy-btn:hover{
+  transform: scale(5px);
+  background-color:#fff
 }
 /* ------------------footer----------------- */
 
