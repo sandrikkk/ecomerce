@@ -174,7 +174,7 @@ nav .cancel-icon{
 
 /* ----------------------------------swiper start---------------------------------- */
 .swiper{
-  margin-top: 20t px;
+  margin-top: 20px;
   width: 80%;
   height: fit-content;
 }
@@ -243,6 +243,15 @@ section{
   cursor: pointer;
   transform: translateX(60px);
   transition: 0.5s;
+}
+.action a{
+  text-decoration: None;
+}
+.heart {
+  color: #f11a07;
+}
+.wish{
+  color: blue;
 }
 .action li:nth-child(2){
   transition-delay:0.15s ;
